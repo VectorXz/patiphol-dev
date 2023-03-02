@@ -9,7 +9,7 @@ interface AboutSectionProps {
 
 const AboutSection: React.FC<AboutSectionProps> = ({ name, description, pictureSrc }) => {
   return (
-    <div className="flex max-w-4xl flex-col-reverse md:flex-row">
+    <div className="flex max-w-4xl flex-col-reverse md:flex-row gap-10">
       <div className="flex flex-1 flex-col gap-10 justify-center">
         <h1 className="text-6xl font-bold text-sky-600">{name}</h1>
         <p className="text-gray-800">{description}</p>
