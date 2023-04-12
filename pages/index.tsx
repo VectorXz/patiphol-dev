@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import AboutSection from "@/components/AboutSection";
 import profilePic from "../public/me.jpg";
 import ContactSection from "@/components/ContactSection";
+import ProjectSection from "@/components/ProjectSection";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,6 +31,7 @@ export default function Home() {
           pictureSrc={profilePic}
         />
         <ContactSection />
+        <ProjectSection />
         <div>Design with ❤️ by Patiphol Pussawong | © {(new Date().getFullYear())} | <a href="https://github.com/VectorXz/patiphol-dev" target={"_blank"}>Github</a></div>
       </main>
     </>
